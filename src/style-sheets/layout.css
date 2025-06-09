@@ -3,8 +3,6 @@
     color:white;
 }
 
-a {} a:hover {}
-
 body {
     margin:0;
     display:grid;
@@ -14,7 +12,7 @@ body {
   
 header {
     background-color:#800020;
-    color:gold;
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -23,7 +21,7 @@ header {
     display: flex;
     gap: 1rem;
 } header a{
-    color:gold;
+    color:white;
     text-decoration:none;
 } header a:hover{
     color:white;
@@ -36,8 +34,6 @@ main {
 }
   
 footer {
-    /* background-color:darkgrey;
-    color:black; */
     background-color:#333030;
     color:white;
     display:flex;
@@ -67,6 +63,4 @@ button:focus, button:focus-visible {}
         background-color:darkgrey;
         color:black;
     }
-    a:hover {}
-    button {}
 }

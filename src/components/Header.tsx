@@ -4,7 +4,7 @@ const Header = () => {
     return(
         <header>
             <h1 className="text-xl font-bold">
-            <Link to="/">Gob1ingo's Site</Link>
+            <Link to="/">Matt's Site</Link>
             </h1>
     
             <nav className="space-x-4">

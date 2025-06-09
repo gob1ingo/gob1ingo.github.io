@@ -1,0 +1,20 @@
+.github-link {
+    color:orange;
+    text-decoration:none;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+
+} .github-link:hover {
+    color:gold;
+    text-shadow:0 0 6px white, 0 0 12px gold;
+}
+
+@media (prefers-color-scheme: light) {
+    .github-link {
+        color: #800020;
+        text-decoration:none;
+        transition: text-shadow 0.3s ease, color 0.3s ease;
+    } .github-link:hover {
+        color:#ff0040;
+        text-shadow: 0 0 6px white, 0 0 12px #ff0040;
+    }
+}
