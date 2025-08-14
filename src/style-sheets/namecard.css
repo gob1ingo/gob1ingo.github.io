@@ -1,0 +1,20 @@
+.name {
+    color: white;
+    text-align:center;
+}
+
+.title {
+    color: orange;
+    text-align: center;
+}
+
+.bio {
+    color:darkgrey;
+}
+
+.card {
+    background-color: #450912;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 700px;
+}
