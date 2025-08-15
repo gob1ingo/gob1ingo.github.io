@@ -1,0 +1,24 @@
+{
+    "qualifications": [
+        {
+            "id": 1, 
+            "title": "",
+            "institution": "",
+            "year": "",
+            "image": "",
+            "links": [
+                { "name": "", "url": "" }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "",
+            "institution": "",
+            "year": "",
+            "image": "",
+            "links": [
+                { "name": "", "url": "" }
+            ]
+        }
+    ]
+}
