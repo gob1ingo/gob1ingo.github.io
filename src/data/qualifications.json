@@ -2,22 +2,50 @@
     "qualifications": [
         {
             "id": 1, 
-            "title": "",
-            "institution": "",
-            "year": "",
-            "image": "",
+            "title": "Computer Science Bachelor of Arts",
+            "institution": "State University of New York at Oswego",
+            "year": "May, 2025",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fww1.oswego.edu%2Fcommunications-and-marketing%2Fsites%2Fcommunications-and-marketing%2Ffiles%2F2023-10%2FOswego%2520logo_vertical_357.png&f=1&nofb=1&ipt=1de9f0d6bc4c7fadb6f4f198cbb1eb0a117f41285a4f0c86b98a91cfd1b7a9b2",
             "links": [
-                { "name": "", "url": "" }
+                {
+                    "name": "Program",
+                    "url": "https://www.oswego.edu/programs/undergraduate/computer-science-ba-bs",
+                    "type": "external"
+                }
+                
             ]
         },
         {
-            "id": 2, 
-            "title": "",
-            "institution": "",
-            "year": "",
-            "image": "",
+            "id": 2,
+            "title": "Cyber Security Certificate",
+            "institution": "TestOut Corporation",
+            "year": "Apr 2024",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.digiterati.com%2Fwp-content%2Fuploads%2F2019%2F12%2Ftestoutlogo.png&f=1&nofb=1&ipt=75cdc252d84f1ae3fcca37a7a847216e83cc9c9f54812d59a4853c80c9b7d1d0",
             "links": [
-                { "name": "", "url": "" }
+                { 
+                    "name": "Credential",
+                    "url": "https://certification.testout.com/verifycert/6-2C6-VEPPR7",
+                    "type": "external"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Java Course",
+            "institution": "Codecademy",
+            "year": "June, 2024",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcreazilla-store.fra1.digitaloceanspaces.com%2Ficons%2F3269689%2Fcodecademy-icon-md.png&f=1&nofb=1&ipt=0be790de7b112fa77787569d85f6aed980871544d0224873c40efff4fc198cbe",
+            "links": [
+                {
+                    "name": "Certificate",
+                    "url": "/documents/learn_java_certificate.pdf", 
+                    "type": "pdf"    
+                },
+                { 
+                    "name": "Course",
+                    "url": "https://www.codecademy.com/learn/learn-java",
+                    "type": "external"
+                }
             ]
         }
     ]

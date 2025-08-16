@@ -1,0 +1,167 @@
+.brick-container {
+    width: 90%;
+    max-width: 750px;
+    margin-bottom: 100px;
+} .container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: orange;
+}
+
+.bricks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.brick {
+    background: #450912;
+    border-radius: 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 0;
+    transform: translateX(-20px);
+} @keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} .brick:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.brick-main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.brick-image {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    margin-right: 20px;
+    background: #450912;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+} .brick-image img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+.brick-content {
+    flex: 1;
+    color: white;
+} .brick-content h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+} .brick-content .institution {
+    margin: 0 0 4px 0;
+    font-size: 0.95rem;
+    opacity: 0.95;
+} .brick-content .year {
+    margin: 0;
+    font-size: 0.85;
+    opacity: 0.85;
+}
+
+.expand-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #8d1124;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 32px;
+    height:32px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+} .expand-btn:hover{
+    background: orange;
+    transform: scale(1.1);
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+} .arrow.rotated {
+  transform: rotate(180deg);
+}
+
+.brick-links {
+  padding: 0 20px 20px 120px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  animation: slideDown 0.3s ease;
+} @keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.link-item {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+} .link-item:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 650px) {
+  
+  .brick-image {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  } .brick-image img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .brick-content h3 {
+    font-size: 1rem;
+  }
+  
+  .brick-links {
+    padding-left: 20px;
+  }
+  
+  .expand-button {
+    position: static;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+  
+  .brick-main {
+    flex-wrap: wrap;
+  }
+}

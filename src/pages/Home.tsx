@@ -8,7 +8,6 @@ function Home() {
     return (
         <div className="container">
             <NameCard/>
-            <a className="github-link" href="https://github.com/gob1ingo/gob1ingo.github.io"><code>github.com/gob1ingo/gob1ingo.github.io</code></a>
             <Qualifications/>
         </div>
     )
