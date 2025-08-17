@@ -18,7 +18,7 @@
 
 .pfp {
     width:25%;
-    height:25;
+    aspect-ratio: 1;
     max-width:175px;
     max-height:175px;
 
