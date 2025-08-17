@@ -7,10 +7,12 @@ const Header = () => {
             <Link to="/">My Page</Link>
             </h1>
     
+            {/*
             <nav className="space-x-4">
             <Link to="/test-page" className="hover:underline">Test Page</Link>
             <Link to="/another-page" className="hover:underline">Another Page</Link>
             </nav>
+            */}
         </header>
     )
 }
