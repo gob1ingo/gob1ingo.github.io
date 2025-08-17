@@ -1,12 +1,12 @@
 import {useState} from 'react';
-import qData from "../data/qualifications.json";
-import '../style-sheets/qualifications.css';
+import credData from "../data/credentials.json";
+import '../style-sheets/credentials.css';
 
-function Qualifications() {
+function Credentials() {
 
     const [expandedIndex, setExpandedIndex] = useState(null);
 
-    const quals = qData.qualifications;
+    const creds = credData.credentials;
 
     
     const toggleExpanded = (index: any) => {
@@ -17,47 +17,34 @@ function Qualifications() {
     // TODO: Implement this. 
     return (
         <div className="brick-container">
-            <h2>Noteable Qualificaitons</h2>
+            <h2>Credentials</h2>
             <div className="bricks">
-                {quals.map((qual,index) => (
+                {creds.map((cred,index) => (
                     <div
-                        key = {qual.id}
+                        key = {cred.id}
                         className = {`brick ${expandedIndex === index ? 'expanded' : '' }`}
                         style = {{ animationDelay: `${index * 0.1}s`}}
                     >
                         <div className="brick-main">
                             <div className="brick-image">
-                                <img src={qual.image} alt={qual.title} />
+                                <img src={cred.image} alt={cred.title} />
                             </div>
                             <div className="brick-content">
-                                <h3>{qual.title}</h3>
-                                <p className="institution">{qual.institution}</p>
-                                <p className="year">{qual.year}</p>
+                                <h3>{cred.title}</h3>
+                                <p className="institution">{cred.institution}</p>
+                                <p className="year">{cred.year}</p>
                             </div>
                             <button
-                                className="expand-btn"
+                                className={`expand-btn ${expandedIndex === index ? "active" : ""}`}
                                 onClick={() => toggleExpanded(index)}
                                 aria-label="Expand for more links"
                             >
-                                <svg
-                                    className={`arrow ${expandedIndex === index ? 'rotated' : '' }`}
-                                    width = "20"
-                                    height="20"
-                                    viewBox="0 0 20 20"
-                                >
-                                    <path
-                                        d = "M% 71.5 5 5-5"
-                                        stroke = "currentColor"
-                                        strokeWidth = "2"
-                                        fill = "none"
-                                    />
-                                </svg>
                             </button>
                         </div>
 
                         {expandedIndex === index && (
                             <div className="brick-links">
-                                {qual.links.map((link,linkIndex) => (
+                                {cred.links.map((link,linkIndex) => (
                                     <a
                                         key = {linkIndex}
                                         href = {link.url}
@@ -94,4 +81,4 @@ function Qualifications() {
     );
 }
 
-export default Qualifications;
+export default Credentials;
