@@ -18,8 +18,10 @@
 
 .pfp {
     width:25%;
+    height:25;
     max-width:175px;
-    height:auto;
+    max-height:175px;
+
     border-radius: 50%;
     margin: auto auto;
 }
