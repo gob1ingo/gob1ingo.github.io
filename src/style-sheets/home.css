@@ -6,14 +6,4 @@
     min-height: 100vh;
 }
 
-.github-link {
-    color:orange;
-    text-decoration:none;
-    transition: text-shadow 0.3s ease, color 0.3s ease;
-
-} .github-link:hover {
-    color:gold;
-    text-shadow:0 0 6px white, 0 0 12px gold;
-}
-
 @media (prefers-color-scheme: light) {}

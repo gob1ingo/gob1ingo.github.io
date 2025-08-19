@@ -11,6 +11,7 @@ function Home() {
             <NameCard/>
             <Credentials/>
             <img src={Patrick} style={{height:"100px", aspectRatio:"1",}} />
+            <p>under active development</p>
         </div>
     )
 
