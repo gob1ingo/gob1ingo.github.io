@@ -1,17 +1,10 @@
-import {useState} from "react";
 import langData from "../data/languages.json";
 import "../style-sheets/languages.css";
 
 
 function Languages() {
 
-    const [expandedIndex, setExpandedIndex] = useState(null);
-
     const langs = langData.languages;
-
-    const toggleExpand = (index: any) => {
-        setExpandedIndex( expandedIndex === index ? null : index );
-    }
 
     return (
         <div className="card-container">
@@ -20,7 +13,7 @@ function Languages() {
                 {langs.map((lang,index) => (
                         <div
                             key = {lang.id}
-                            className = {`card ${expandedIndex === index ? 'expanded': ''}`}
+                            className="card"
                             style = {{ animationDelay: `${index * 0.1}s`}}
                         >
                             <div className="card-main">
