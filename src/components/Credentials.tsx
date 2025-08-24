@@ -13,8 +13,6 @@ function Credentials() {
         setExpandedIndex(expandedIndex === index ? null : index );
     }
     
-
-    // TODO: Implement this. 
     return (
         <div className="brick-container">
             <h2>Credentials</h2>
@@ -75,7 +73,7 @@ function Credentials() {
                             </div>
                         )}
                     </div>
-                    ))}
+                ))}
             </div>
         </div>
     );

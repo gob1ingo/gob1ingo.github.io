@@ -1,0 +1,69 @@
+{
+    "languages" : [
+        {
+            "id" : 1, 
+            "title" : "Java",
+            "src_doc" : "https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html",
+            "image" : "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png",
+            "links" : [
+                {
+                    "name" : "Certificate",
+                    "url" : "/documents/learn_java_certificate.pdf",
+                    "type" : "pdf"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "title" : "C/C++",
+            "src_doc" : "https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170",
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/250px-ISO_C%2B%2B_Logo.svg.png",
+            "links" : [
+                {
+                    "name": "Certificate",
+                    "url" : "",
+                    "type" : "pdf"
+                }
+            ]
+        },
+        {
+            "id" : 3, 
+            "title" : "Go",
+            "src_doc" : "https://go.dev/doc/?lang=en",
+            "image" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*pS-k8X90ze9qlbB62uj4fQ.png&f=1&nofb=1&ipt=750551689672ae76f0891706bf097c15be35fbbe683d1faaf801198c522a74b4",
+            "links" : [
+                {
+                    "name": "Certificate",
+                    "url" : "",
+                    "type" : "pdf"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "title": "Python",
+            "src_doc" : "https://www.python.org/?hl=EN",
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/150px-Python-logo-notext.svg.png",
+            "links": [
+                {
+                    "name": "Certificate",
+                    "url": "",
+                    "type" : "pdf"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "React",
+            "src_doc": "https://react.dev/learn/build-a-react-app-from-scratch",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/250px-React_Logo_SVG.svg.png",
+            "links": [
+                {
+                    "name": "Certificate",
+                    "url": "",
+                    "type": "pdf"
+                }
+            ]
+        }
+    ]
+}

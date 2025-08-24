@@ -4,7 +4,7 @@ import profilePicture from "../assets/pfp.jpg"
 function NameCard() {
 
     return (
-        <div className="card">
+        <div className="name-card">
             <img 
                 src={profilePicture}
                 alt="Picture of Matt"
