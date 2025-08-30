@@ -27,7 +27,7 @@ function Languages() {
                                                 <a
                                                     key = {linkIndex}
                                                     href = {link.url}
-                                                    className = {`link-item ${link.type === 'pdf' ? 'pdf-link' : ''}`}
+                                                    className = {`card-link ${link.type === 'pdf' ? 'pdf-link' : ''}`}
                                                     target = "_blank"
                                                     rel = "noopener noreferrer"
                                                 >
