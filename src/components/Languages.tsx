@@ -18,7 +18,9 @@ function Languages() {
                         >
                             <div className="card-main">
                                 <div className="card-image">
-                                    <img src={lang.image} alt={lang.title}/>
+                                    <a href={lang.src_doc} target="_blank" rel="noopener noreferrer">
+                                        <img src={lang.image} alt={lang.title}/>
+                                    </a>
                                 </div>
                                 <div className="card-content">
                                     <h3>{lang.title}</h3>

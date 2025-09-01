@@ -20,9 +20,14 @@
             "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/250px-ISO_C%2B%2B_Logo.svg.png",
             "links" : [
                 {
-                    "name": "Certificate",
-                    "url" : "",
+                    "name": "C Certificate",
+                    "url" : "/documents/learn_c_certificate.pdf",
                     "type" : "pdf"
+                },
+                {
+                    "name": "C++ Certificate",
+                    "url": "/documents/learn_c++_certificate.pdf",
+                    "type": ""
                 }
             ]
         },
@@ -34,7 +39,7 @@
             "links" : [
                 {
                     "name": "Certificate",
-                    "url" : "",
+                    "url" : "/documents/learn_go_certificate.pdf",
                     "type" : "pdf"
                 }
             ]
@@ -47,7 +52,7 @@
             "links": [
                 {
                     "name": "Certificate",
-                    "url": "",
+                    "url": "/documents/learn_python_certificate.pdf",
                     "type" : "pdf"
                 }
             ]
@@ -60,8 +65,21 @@
             "links": [
                 {
                     "name": "Certificate",
-                    "url": "",
+                    "url": "/documents/learn_react_certificate.pdf",
                     "type": "pdf"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "title":"SQL",
+            "src_doc":"https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/index.html",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F597%2F198%2Foriginal%2F3d-file-sql-icon-illustration-png.png&f=1&nofb=1&ipt=feffe5d331367b9f9d93e800e93c1c4dc95da31200e7cd9f99ae3b1280f7dd2f",
+            "links":[
+                {
+                    "name":"Certificate",
+                    "url":"/documents/learn_sql_certificate.pdf",
+                    "type":"pdf"
                 }
             ]
         }
