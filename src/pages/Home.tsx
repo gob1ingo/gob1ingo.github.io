@@ -1,5 +1,5 @@
 import "../style-sheets/home.css";
-import "../components/NameCard.tsx"
+import "../components/NameCard.tsx";
 import NameCard from "../components/NameCard.tsx";
 import Credentials from "../components/Credentials.tsx"
 import Languages from "../components/Languages.tsx";
@@ -8,7 +8,7 @@ import Patrick from "../assets/patrick_working.png";
 function Home() {
 
     return (
-        <div className="container">
+        <div className="home-container">
             <NameCard/>
             <Credentials/>
             <Languages/>

@@ -7,7 +7,7 @@ function Languages() {
     const langs = langData.languages;
 
     return (
-        <div className="card-container">
+        <div className="card-container" id="software-experience">
             <h2>Languages, Libraries & Software Experience</h2>
             <div className="cards">
                 {langs.map((lang,index) => (
