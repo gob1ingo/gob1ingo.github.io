@@ -7,7 +7,7 @@
             "image" : "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png",
             "links" : [
                 {
-                    "name" : "Certificate",
+                    "name" : "CC Cert.",
                     "url" : "/documents/learn_java_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -20,14 +20,14 @@
             "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/250px-ISO_C%2B%2B_Logo.svg.png",
             "links" : [
                 {
-                    "name": "C Certificate",
+                    "name": "CC Cert.",
                     "url" : "/documents/learn_c_certificate.pdf",
                     "type" : "pdf"
                 },
                 {
-                    "name": "C++ Certificate",
+                    "name": "CC Cert.",
                     "url": "/documents/learn_c++_certificate.pdf",
-                    "type": ""
+                    "type": "pdf"
                 }
             ]
         },
@@ -38,7 +38,7 @@
             "image" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*pS-k8X90ze9qlbB62uj4fQ.png&f=1&nofb=1&ipt=750551689672ae76f0891706bf097c15be35fbbe683d1faaf801198c522a74b4",
             "links" : [
                 {
-                    "name": "Certificate",
+                    "name": "CC Cert.",
                     "url" : "/documents/learn_go_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -51,7 +51,7 @@
             "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/150px-Python-logo-notext.svg.png",
             "links": [
                 {
-                    "name": "Certificate",
+                    "name": "CC Cert.",
                     "url": "/documents/learn_python_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -64,7 +64,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/250px-React_Logo_SVG.svg.png",
             "links": [
                 {
-                    "name": "Certificate",
+                    "name": "CC Cert.",
                     "url": "/documents/learn_react_certificate.pdf",
                     "type": "pdf"
                 }
@@ -77,9 +77,67 @@
             "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F597%2F198%2Foriginal%2F3d-file-sql-icon-illustration-png.png&f=1&nofb=1&ipt=feffe5d331367b9f9d93e800e93c1c4dc95da31200e7cd9f99ae3b1280f7dd2f",
             "links":[
                 {
-                    "name":"Certificate",
+                    "name":"CC Cert.",
                     "url":"/documents/learn_sql_certificate.pdf",
                     "type":"pdf"
+                }
+            ]
+        },
+        {
+            "id":7,
+            "title":"Linux",
+            "src_doc":"https://www.kernel.org/doc/html/latest/",
+            "image":"https://www.kernel.org/doc/html/latest/_static/logo.svg",
+            "links":[
+                {
+                    "name":"CC Cert.",
+                    "url":"/documents/learn_linux_certificate.pdf",
+                    "type":"pdf"
+                },
+                {
+                    "name":"CC Cert.",
+                    "url":"/documents/learn_command-line_certificate.pdf",
+                    "type":"pdf"
+                }
+            ]
+        },
+        {
+            "id":8,
+            "title":"GitHub",
+            "src_doc":"https://docs.github.com/en",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fgithub%2Fgithub_PNG40.png&f=1&nofb=1&ipt=88f81c5e1de9cede74041a226e1afa2e5001165ae8058ee0a37e6272ae1dccf8",
+            "links":[
+                {
+                    "name":"My GitHub",
+                    "url":"https://github.com/gob1ingo",
+                    "type":"external"
+                }
+            ]
+
+        },
+        {
+            "id":9,
+            "title":"Excel",
+            "src_doc":"https://www.microsoft.com/en-us/microsoft-365/excel",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/250px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+            "links":[
+                {
+                    "name":"GCA Cert.",
+                    "url":"https://www.credential.net/28a3be89-d6a0-4762-8d2e-6327f2a58956#acc.4FtYVvUB",
+                    "type":"external"
+                }
+            ]
+        },
+        {
+            "id":10,
+            "title":"Tableau",
+            "src_doc":"https://www.tableau.com/",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62e14245eb4d9a9dc054c181.png&f=1&nofb=1&ipt=1c6699f70ef5913354f2034815d599878048b7db479383a3fd66e7652cc0cab2",
+            "links":[
+                {
+                    "name":"GCA Cert.",
+                    "url":"https://www.credential.net/d57b6bae-9d5f-4537-b9fe-edeb148d4fea#acc.aSrIDqM4",
+                    "type":"external"
                 }
             ]
         }

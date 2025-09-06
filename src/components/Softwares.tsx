@@ -1,10 +1,10 @@
-import langData from "../data/languages.json";
-import "../style-sheets/languages.css";
+import softData from "../data/softwares.json";
+import "../style-sheets/softwares.css";
 
 
-function Languages() {
+function Softwares() {
 
-    const langs = langData.languages;
+    const langs = softData.languages;
 
     return (
         <div className="card-container" id="software-experience">
@@ -65,4 +65,4 @@ function Languages() {
     )
 }
 
-export default Languages;
+export default Softwares;
