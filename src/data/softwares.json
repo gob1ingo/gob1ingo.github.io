@@ -7,7 +7,7 @@
             "image" : "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png",
             "links" : [
                 {
-                    "name" : "CC Cert.",
+                    "name" : "CoCad Cert.",
                     "url" : "/documents/learn_java_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -20,12 +20,12 @@
             "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/250px-ISO_C%2B%2B_Logo.svg.png",
             "links" : [
                 {
-                    "name": "CC Cert.",
+                    "name": "CoCad Cert.",
                     "url" : "/documents/learn_c_certificate.pdf",
                     "type" : "pdf"
                 },
                 {
-                    "name": "CC Cert.",
+                    "name": "CoCad Cert.",
                     "url": "/documents/learn_c++_certificate.pdf",
                     "type": "pdf"
                 }
@@ -38,7 +38,7 @@
             "image" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*pS-k8X90ze9qlbB62uj4fQ.png&f=1&nofb=1&ipt=750551689672ae76f0891706bf097c15be35fbbe683d1faaf801198c522a74b4",
             "links" : [
                 {
-                    "name": "CC Cert.",
+                    "name": "CoCad Cert.",
                     "url" : "/documents/learn_go_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -51,7 +51,7 @@
             "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/150px-Python-logo-notext.svg.png",
             "links": [
                 {
-                    "name": "CC Cert.",
+                    "name": "CoCad Cert.",
                     "url": "/documents/learn_python_certificate.pdf",
                     "type" : "pdf"
                 }
@@ -64,7 +64,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/250px-React_Logo_SVG.svg.png",
             "links": [
                 {
-                    "name": "CC Cert.",
+                    "name": "CoCad Cert.",
                     "url": "/documents/learn_react_certificate.pdf",
                     "type": "pdf"
                 }
@@ -77,7 +77,7 @@
             "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F597%2F198%2Foriginal%2F3d-file-sql-icon-illustration-png.png&f=1&nofb=1&ipt=feffe5d331367b9f9d93e800e93c1c4dc95da31200e7cd9f99ae3b1280f7dd2f",
             "links":[
                 {
-                    "name":"CC Cert.",
+                    "name":"CoCad Cert.",
                     "url":"/documents/learn_sql_certificate.pdf",
                     "type":"pdf"
                 }
@@ -90,7 +90,7 @@
             "image":"https://www.kernel.org/doc/html/latest/_static/logo.svg",
             "links":[
                 {
-                    "name":"CC Cert.",
+                    "name":"CoCad Cert.",
                     "url":"/documents/learn_linux_certificate.pdf",
                     "type":"pdf"
                 },

@@ -16,7 +16,6 @@ body {
   
 header {
     background-color:#450912;
-    color:white;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -34,7 +33,6 @@ header {
   
 main {
     padding: 1rem;
-    min-height:0;
 }
   
 footer {
