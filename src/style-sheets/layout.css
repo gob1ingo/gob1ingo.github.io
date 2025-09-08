@@ -23,9 +23,10 @@ header {
 } header nav{
     display: flex;
     gap: 1rem;
-} header a{
+}header a {
     color:white;
     text-decoration:none;
+    font-family:'Courier New', Courier, monospace
 } header a:hover{
     color:white;
     text-decoration:underline;

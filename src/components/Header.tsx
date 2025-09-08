@@ -3,11 +3,11 @@ import {Link} from "react-router-dom";
 const Header = () => {
     return(
         <header>
-            <h1 className="text-xl font-bold">
-            <Link to="/">My Page</Link>
+            <h1>
+            <Link to="/">Matthew Sikorski</Link>
             </h1>
 
-            <nav className="space-x-4">
+            <nav>
                 <a href="#credentials">Credentials</a>
                 <a href="#software-experience">Software Experience</a>
             </nav> {/* At some point, turn this into a local side-bar within Home.tsx. */}
