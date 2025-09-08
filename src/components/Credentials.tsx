@@ -8,9 +8,12 @@ function Credentials() {
 
     const creds = credData.credentials;
 
-    
     const toggleExpanded = (index: any) => {
         setExpandedIndex(expandedIndex === index ? null : index );
+    }
+
+    const handleLinkClick = (event: React.MouseEvent) => {
+        event.stopPropagation();
     }
     
     return (
@@ -22,6 +25,7 @@ function Credentials() {
                         key = {cred.id}
                         className = {`brick ${expandedIndex === index ? 'expanded' : '' }`}
                         style = {{ animationDelay: `${index * 0.1}s`}}
+                        onClick={(() => toggleExpanded(index))}
                     >
                         <div className="brick-main">
                             <div className="brick-image">
@@ -32,16 +36,13 @@ function Credentials() {
                                 <p className="institution">{cred.institution}</p>
                                 <p className="year">{cred.year}</p>
                             </div>
-                            <button
-                                className={`expand-btn ${expandedIndex === index ? "active" : ""}`}
-                                onClick={() => toggleExpanded(index)}
-                                aria-label="Expand for more links"
-                            >
-                            </button>
                         </div>
 
                         {expandedIndex === index && (
-                            <div className="brick-links">
+                            <div
+                                className="brick-links"
+                                onClick={handleLinkClick}
+                            >
                                 {cred.links.map((link,linkIndex) => (
                                     <a
                                         key = {linkIndex}
