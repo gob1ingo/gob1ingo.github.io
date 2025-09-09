@@ -1,0 +1,22 @@
+{
+    "socialmedias":[
+        {
+            "id":1,
+            "title":"LinkedIn",
+            "icon":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Flinkedin-icon-logo-png-transparent.png&f=1&nofb=1&ipt=7994b13109498158f5c5c622226d1888b75e9dda97b0a70cf0a1a4289f5d2a9b",
+            "link":"https://www.linkedin.com/in/matt-sikorski/"
+        },
+        {
+            "id":2,
+            "title":"Upwork",
+            "icon":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngrepo.com%2Fdownload%2F331630%2Fupwork.png&f=1&nofb=1&ipt=1fcb05c50f88920e86176cd896793b3a7defb60e4498b9a0c036d349d92d78dd",
+            "link":"https://www.upwork.com/freelancers/~01ee6b3e04e37252c6?mp_source=share"
+        },
+        {
+            "id":3,
+            "title":"Instagram",
+            "icon":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F021%2F495%2F954%2Flarge_2x%2Finstagram-logo-icon-free-png.png&f=1&nofb=1&ipt=235f961c4c7bb793b24719cb9dffb243361991112c16b6fb5fce909c2381e653",
+            "link":"https://www.instagram.com/m.w4z0w5k1"
+        }
+    ]
+}

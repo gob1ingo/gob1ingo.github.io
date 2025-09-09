@@ -18,7 +18,7 @@ function Credentials() {
     
     return (
         <div className="brick-container" id="credentials">
-            <h2>Credentials</h2>
+            <h1>Credentials</h1>
             <div className="bricks">
                 {creds.map((cred,index) => (
                     <div

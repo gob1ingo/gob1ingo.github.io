@@ -3,7 +3,8 @@ import "../components/NameCard.tsx";
 import NameCard from "../components/NameCard.tsx";
 import Credentials from "../components/Credentials.tsx"
 import Softwares from "../components/Softwares.tsx";
-import Patrick from "../assets/patrick_working.png";
+import SocialMedias from "../components/SocialMedias.tsx"
+// import Patrick from "../assets/patrick_working.png";
 
 function Home() {
 
@@ -12,8 +13,9 @@ function Home() {
             <NameCard/>
             <Credentials/>
             <Softwares/>
-            <img src={Patrick} style={{height:"100px", aspectRatio:"1",}} />
-            <p>under active development</p>
+            <SocialMedias/>
+            {/* <img src={Patrick} style={{height:"100px", aspectRatio:"1",}} />
+            <p>under active development</p> */}
         </div>
     )
 

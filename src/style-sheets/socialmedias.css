@@ -1,0 +1,52 @@
+.sm-container{
+    width:90%;
+    max-width:750px;
+    margin: 0 auto 100px auto;
+} .sm-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color:orange;
+}
+
+.sm-list {
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.sm-button{
+    background: #450912;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    overflow:hidden;
+    transition: all 0.5s ease;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 0;
+} @keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} .sm-button:hover{
+    box-shadow: 0 0 10px orangered;
+    background: orangered;
+    cursor: pointer;
+}
+
+.sm-icon img {
+    background:white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
