@@ -38,8 +38,8 @@
         transform: translateY(0);
     }
 } .sm-button:hover{
-    box-shadow: 0 0 10px orangered;
-    background: orangered;
+    box-shadow: 0 0 10px #8d1124;
+    background: #8d1124;
     cursor: pointer;
 }
 

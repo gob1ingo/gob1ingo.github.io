@@ -36,9 +36,21 @@
         transform: translateX(0);
     }
 } .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 10px orangered;
-}
+    background:#8d1124;
+    box-shadow: 0 0 10px #8d1124;
+} .card:hover .card-link{
+    background:#8d1124;
+} .card:hover .card-image img {
+    animation: wiggle 1s ease-in-out infinite; 
+    cursor: pointer;   
+} @keyframes wiggle {
+    0%, 100% {transform: rotate(-5deg) }
+    25% { transform: rotate(5deg) }
+    50% { transform: rotate(-5deg) }
+    75% { transform: rotate(5deg) }
+} .card.expanded {
+    box-shadow: 0 0 10px orange;
+} 
 
 .card-image{
     width: 100%;
@@ -51,19 +63,11 @@
     width: 100%;
     height: 100px;
     object-fit: contain;
-} .card-image img:hover {
-    animation: wiggle 1s ease-in-out infinite; 
-    cursor: pointer;   
-} @keyframes wiggle {
-    0%, 100% {transform: rotate(-5deg) }
-    25% { transform: rotate(5deg) }
-    50% { transform: rotate(-5deg) }
-    75% { transform: rotate(5deg) }
 }
 
 .card-content{
     flex: 1;
-    color: white;
+    color: orange;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -74,7 +78,7 @@
   text-overflow: ellipsis;
   text-align: center;
   background: #450912;
-  color: orange;
+  color: white;
   width: 50%;
   text-decoration: none;
   padding: 6px 12px;
@@ -84,7 +88,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   margin-bottom: 5px;
   animation: slideDown 0.3s ease;
 } @keyframes slideDown {
@@ -96,6 +100,7 @@
         transform: translateY(0);
     }
 } .card-link:hover {
-  box-shadow: 0 0 5px orangered;
+  box-shadow: 0 0 5px white;
+  border-color: white;
   transform: translateY(-1px);
 }

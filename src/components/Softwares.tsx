@@ -24,7 +24,7 @@ function Softwares() {
                 {langs.map((lang,index) => (
                         <div
                             key = {lang.id}
-                            className="card"
+                            className={`card ${expandedIndex === index ? 'expanded' : ''}`}
                             style = {{ animationDelay: `${index * 0.1}s`}}
                             onClick={(() => toggleExpanded(index))}
                         >
