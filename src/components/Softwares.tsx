@@ -30,12 +30,12 @@ function Softwares() {
                         >
                             <div className="card-main">
                                 <div className="card-image">
-                                    <a href={lang.src_doc} target="_blank" rel="noopener noreferrer">
-                                        <img src={lang.image} alt={lang.title}/>
-                                    </a>
+                                    <img src={lang.image} alt={lang.title}/>
                                 </div>
                                 <div className="card-content">
-                                    <h3>{lang.title}</h3>
+                                    <a href={lang.src_doc} target="_blank" rel="noopener noreferrer" style={{color:'orange', textDecoration:'none'}}> 
+                                        <h3>{lang.title}</h3>
+                                    </a>
                                     {expandedIndex === index && (
                                         <div 
                                             className="card-links"
