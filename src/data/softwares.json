@@ -140,6 +140,28 @@
                     "type":"external"
                 }
             ]
+        },
+        {
+            "id":11,
+            "title":"Windows",
+            "src_doc":"https://www.microsoft.com/en-us/software-download/",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fsocial-networks-3%2F512%2Fwindows-1024.png&f=1&nofb=1&ipt=25c890175e89849ac895d2c8ab2d14651cb002c1b1a8bc89bfeb24aa40560225",
+            "links":[]
+        },
+        {
+            "id":12,
+            "title":"Apache Maven",
+            "src_doc":"https://maven.apache.org/",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62a78cdae42d729d928b174f.png&f=1&nofb=1&ipt=d8ebcc08811a40178f430fad021b76b77e94c78970364b03bfc74bd3276f3232",
+            "links":[]
+
+        },
+        {
+            "id":13,
+            "title":"Java Swing",
+            "src_doc":"https://docs.oracle.com/javase/tutorial/uiswing/",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsarith-w.github.io%2FPortfolio%2Fimages%2Fjava-swing.png&f=1&nofb=1&ipt=30aeaf30e5776c5cd3bb60b4dfa35412752da83de756209f5f6b2ff45ca219de",
+            "links":[]
         }
     ]
 }
