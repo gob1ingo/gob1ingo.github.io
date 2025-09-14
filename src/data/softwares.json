@@ -162,6 +162,13 @@
             "src_doc":"https://docs.oracle.com/javase/tutorial/uiswing/",
             "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsarith-w.github.io%2FPortfolio%2Fimages%2Fjava-swing.png&f=1&nofb=1&ipt=30aeaf30e5776c5cd3bb60b4dfa35412752da83de756209f5f6b2ff45ca219de",
             "links":[]
+        },
+        {
+            "id":14,
+            "title":"VSCode",
+            "src_doc":"https://code.visualstudio.com/Docs",
+            "image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuxwing.com%2Fwp-content%2Fthemes%2Fuxwing%2Fdownload%2Fbrands-and-social-media%2Fvisual-studio-code-icon.png&f=1&nofb=1&ipt=ffb6dc200220aa7d38600ba92f5478068c54b2343fabd0c9dadef841756a7cc0",
+            "links":[]
         }
     ]
 }
