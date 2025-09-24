@@ -1,9 +1,9 @@
 import socMedData from "../data/socialmedias.json";
-import "../style-sheets/socialmedias.css"
+import { SocialMediasData } from '../types';
+import "../style-sheets/socialmedias.css";
 
 function SocialMedias() {
-
-    const medias = socMedData.socialmedias;
+    const medias = (socMedData as SocialMediasData).socialmedias;
 
     return (
         <div className="sm-container">

@@ -1,54 +1,84 @@
 :root {
-    background-color: #1b0407;
-    color:white;
+  --bg-color: #1b0407;
+  --header-bg: #450912;
+  --footer-bg: #333030;
+  --text-color: white;
+  --accent-color: orange;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin:0;
-    display:grid;
-    grid-template-rows:auto 1fr auto;
-    min-height:100vh;
-}
-  
-header {
-    background-color:#450912;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding:0rem 1.5rem;
-} header nav{
-    display: flex;
-    gap: 1rem;
-}header a {
-    color:white;
-    text-decoration:none;
-    font-family:'Courier New', Courier, monospace
-} header a:hover{
-    color:white;
-    text-decoration:underline;
-}
-  
-main {
-    padding: 1rem;
-}
-  
-footer {
-    background-color:#333030;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:1rem;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
 }
 
-.page-wrapper{
-    display:grid;
-    grid-template-rows:auto 1fr auto;
-    min-height:100vh;
+.page-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
-  
-@media (prefers-color-scheme: light) {}
+
+header {
+  background-color: var(--header-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.2s ease;
+}
+
+header a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+
+  header {
+    padding: 0 1rem;
+  }
+}

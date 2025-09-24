@@ -1,15 +1,13 @@
 import {useState} from 'react';
 import softData from "../data/softwares.json";
+import { LanguagesData } from '../types';
 import "../style-sheets/softwares.css";
 
-
 function Softwares() {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+    const langs = (softData as LanguagesData).languages;
 
-    const [expandedIndex, setExpandedIndex] = useState(null);
-
-    const langs = softData.languages;
-
-    const toggleExpanded = (index: any) => {
+    const toggleExpanded = (index: number) => {
         setExpandedIndex( expandedIndex === index ? null : index );
     }
 

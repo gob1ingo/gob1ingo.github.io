@@ -1,6 +1,6 @@
 import "../style-sheets/footer.css";
 
-const Footer = () => {
+function Footer() {
     return (
         <footer>
             <p className="footer-text">Copyright ©2025 Matthew Sikorski</p>

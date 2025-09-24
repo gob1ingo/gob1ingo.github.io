@@ -2,16 +2,16 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Layout = () => {
+function Layout() {
     return (
         <div className="page-wrapper">
             <Header />
-            <main className="pt-20">
+            <main>
                 <Outlet />
             </main>
             <Footer />
         </div>
-    )
+    );
 }
 
 export default Layout;

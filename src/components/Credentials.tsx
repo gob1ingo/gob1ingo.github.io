@@ -1,14 +1,13 @@
 import {useState} from 'react';
 import credData from "../data/credentials.json";
+import { CredentialsData } from '../types';
 import '../style-sheets/credentials.css';
 
 function Credentials() {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+    const creds = (credData as CredentialsData).credentials;
 
-    const [expandedIndex, setExpandedIndex] = useState(null);
-
-    const creds = credData.credentials;
-
-    const toggleExpanded = (index: any) => {
+    const toggleExpanded = (index: number) => {
         setExpandedIndex(expandedIndex === index ? null : index );
     }
 
