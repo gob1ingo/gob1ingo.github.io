@@ -1,9 +1,30 @@
 :root {
+  /* Primary colors */
   --bg-color: #1b0407;
-  --header-bg: #450912;
-  --footer-bg: #333030;
-  --text-color: white;
-  --accent-color: orange;
+  --primary-bg: #450912;
+  --secondary-bg: #8d1124;
+  --tertiary-bg: #333030;
+
+  /* Text colors */
+  --text-primary: white;
+  --text-secondary: darkgrey;
+  --text-muted: grey;
+  --text-accent: orange;
+
+  /* Accent colors */
+  --accent-primary: orange;
+  --accent-secondary: orangered;
+
+  /* Interactive states */
+  --hover-bg: #8d1124;
+  --hover-shadow: #8d1124;
+  --expanded-shadow: orange;
+
+  /* Legacy variables for backward compatibility */
+  --header-bg: var(--primary-bg);
+  --footer-bg: var(--tertiary-bg);
+  --text-color: var(--text-primary);
+  --accent-color: var(--accent-primary);
 }
 
 * {

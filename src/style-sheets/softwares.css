@@ -7,7 +7,7 @@
     text-align: center;
     margin-bottom: 40px;
     font-size: 2rem;
-    color: orange;
+    color: var(--text-accent);
 }
 
 .cards{
@@ -20,7 +20,7 @@
 }
 
 .card{
-    background: #450912;
+    background: var(--primary-bg);
     border-radius : 5%;
     box-shadow: 0 0 10px rgba(0,0,0, 0.5);
     transition: all 0.3s ease;
@@ -36,12 +36,12 @@
         transform: translateX(0);
     }
 } .card:hover {
-    background:#8d1124;
-    box-shadow: 0 0 10px #8d1124;
+    background: var(--hover-bg);
+    box-shadow: 0 0 10px var(--hover-shadow);
 } .card:hover .card-link{
-    background:#8d1124;
+    background: var(--hover-bg);
 } .card.expanded {
-    box-shadow: 0 0 10px orange;
+    box-shadow: 0 0 10px var(--expanded-shadow);
 } 
 
 .card-image{
@@ -61,7 +61,7 @@
 
 .card-content{
     flex: 1;
-    color: orange;
+    color: var(--text-accent);
     text-align: center;
     margin-bottom: 10px;
 }
@@ -71,8 +71,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
-  background: #450912;
-  color: white;
+  background: var(--primary-bg);
+  color: var(--text-primary);
   width: 50%;
   text-decoration: none;
   padding: 6px 12px;
@@ -94,7 +94,7 @@
         transform: translateY(0);
     }
 } .card-link:hover {
-  box-shadow: 0 0 5px white;
+  box-shadow: 0 0 5px var(--text-primary);
   border-color: white;
   transform: translateY(-1px);
 }
