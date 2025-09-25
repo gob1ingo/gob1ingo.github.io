@@ -1,5 +1,5 @@
 import "../style-sheets/namecard.css";
-import profilePicture from "../assets/pfp.jpg";
+import profilePicture from "../assets/pfp_professional_cropped.jpeg";
 
 function NameCard() {
     return (

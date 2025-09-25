@@ -17,12 +17,11 @@
 }
 
 .pfp {
-    height:20%;
-    aspect-ratio: 1;
-    max-width:175px;
-    max-height:175px;
-
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 3px solid var(--text-accent);
     margin: auto auto;
 }
 
